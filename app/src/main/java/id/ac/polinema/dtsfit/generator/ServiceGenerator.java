@@ -35,5 +35,4 @@ public class ServiceGenerator {
         retrofit = builder.build();
         return retrofit.create(serviceClass);
     }
-
 }
